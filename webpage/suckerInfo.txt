@@ -1,0 +1,4 @@
+Aziza Kamilova;CAL;123123124;visa
+Azim Inoyatov;CA;4234234264263462356;mastercard
+Azim Inoyatov;CAL;232354525;mastercard
+Alina Niyazova;EM;234235;visa

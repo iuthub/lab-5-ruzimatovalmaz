@@ -15,25 +15,34 @@
 		<hr />
 		
 		<h2>Give Us Your Money</h2>
-		<dl>
-			<dt>Name</dt>
+		<form action="sucker.php" method="post">
+		<dl>	
+			<dt>Name </dt>
 			<dd>
-				???
+				<input type="text" name="name">
 			</dd>
-			
 			<dt>Section</dt>
 			<dd>
-				???
+			<select id="cmbMake" name="comboBox">
+				<option value="">(Select a section)</option>
+				<option value="SP">System Programming</option>
+				<option value="CA">Computer Architecture</option>
+				<option value="EM">Engineering Math</option>
+				<option value="IP">Web Programming</option>
+				<option value="CAL">Circuit and Lab</option>
+				<option value="BK">Basic Korean</option>
+			</select>
 			</dd>
-			
 			<dt>Credit Card</dt>
 			<dd>
-				???
+				<input type="number" name="creditNumber"><br>
+				<input type="radio" name="card" value="visa">Visa
+				<input type="radio" name="card" value="mastercard">Master Card
 			</dd>
 		</dl>
-		
 		<div>
-			I am a giant sucker.
+		<input  type="submit" value="I am a giant sucker!"></input>
 		</div>
+		</form>
 	</body>
 </html>
